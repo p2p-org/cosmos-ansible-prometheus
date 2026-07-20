@@ -8,8 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@1.0.0
-      - uses: micnncim/action-label-syncer@v0.3.1
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # 1.0.0
+      - uses: micnncim/action-label-syncer@bb2846fa8dd0bdbbbb713fb7c04c3a70dd3ba401 # v0.3.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
